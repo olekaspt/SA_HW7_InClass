@@ -4,15 +4,25 @@
 
 This assignment is revisit C4 diagrams as well investigating the MVC architectural pattern.
 
-## Web site
+We are working on a Email program similiar to outlook.  It will be able to work purely from the cloud (website) as well as a cloud connected desktop application.
 
+Keep in mind the KISS principle, keep it simple silly :)   You should not need much many blocks in your diagrams.  If you have questions how this shoudl work, write it down as assumption.  That is don't ask me if this have X.  Write down your assumption about X, and proceed with your diagram.
+
+## Web site
+Make a C4 diagram, C1 and C2.  Which the C2 focusing on the component of the web page, and use the MVC, and use the MVC pattern.
 
 ## Cloud Connected Desktop Appplication
+Make a C4 diagram, C1 and C2.  Which the C2 focusing on the component of the desktop application, and use the MVC pattern.
 
+## Data access object
+In lecture I talked about Data Access Object, and some of the concerns with about representing data.  
 
+It can be argued the View\Controller can be thought of a Data Access Object.  And the emails in the model are the actual data.  What are requirements for the this product offering we should consider.  Think about performance issues with both the web and desktop application.  Also what about disk space usage \ memory useage.
 
-
-PDF Report:  Describe what you enhanced and deprecated for 1.5.  And for the 2.0 what did you remove from the API, and why is this acceptable?
+PDF Report:  
+1) List your assumptions used in the diagrams
+2) Your C4 diagrams
+3) 
 
 ## Participation Rubric
 PDF:
@@ -20,10 +30,9 @@ The usual rubric of your partners particpation.
 
 ## Deliverable \ Rubric
 
-10% Readability of code and Report
-45 % API evolution
-45 % Document an API
+20% Readability of code and Report
+60 % API evolution
+20 % Document an API
 
 Submission
 1) PDF with desired information specified above.
-2) Zip of HTML pages of API for 3 versions
